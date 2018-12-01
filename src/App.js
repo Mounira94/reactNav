@@ -1,12 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Main from './Components/Main'
+import { BrowserRouter, Link, Route } from 'react-router-dom';
+import Main from './Components/Main';
+import Contact from'./Components/Contact';
 class App extends Component {
   render() {
     return (
       <div className="App">
-<Main/>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter>
       </div>
+
     );
   }
 }

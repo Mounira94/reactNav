@@ -2,8 +2,9 @@
 { 
     display: flex;
     padding-left: 20px;
-    width: 200px;
-    border-bottom:2px solid  rgb(21, 168, 191);
+    padding-top: 20px;
+    width: 250px;
+    border-bottom:2px solid  rgb(12, 2, 22);
     height: 30px;
     
 
@@ -14,6 +15,13 @@
     padding-right: 20px;
     position: relative;
     height:58px;
+    font-size: 20px;
+    color: rgb(35, 7, 61);   
+}
+.item
+{
+    text-decoration-line: none;
+    
 }
 .departement-items
 {
@@ -22,12 +30,16 @@
     margin-top: 10px;
     width: 150px;
     height: auto;
-    border: 2px solid rgb(21, 168, 191);
+    border: 2px solid rgb(12, 2, 22);
     background-color: white;   
 }
-.nav-items:hover
+.item:hover
 {
-  color:  rgb(21, 168, 191);
+  color:  rgb(12, 2, 22);
+}
+.item:visited
+{
+  color:  rgb(12, 2, 22);
 }
 .nav-items:hover>.departement-items,.departement-items:hover
 {
@@ -43,4 +55,43 @@
     list-style-type:none;
 
 
+}
+.component
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(126, 109, 141);
+    width: 100vw;
+    height: 100vh;
+    margin: 0px
+}
+.component-tilte
+{
+    font-size: 40px;
+    color: rgb(35, 7, 61);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.contact-text
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color:rgb(12, 2, 22);
+}
+.main
+{
+    background-color: rgb(243, 241, 128);
+    width: 100vw;
+    height: 100vh;
+    margin: -20px;
+    
+}
+.homepage-title
+{
+    text-align: center;
+    color: rebeccapurple;
+    font-size: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
