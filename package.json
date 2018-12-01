@@ -2,7 +2,7 @@
   "name": "reactmenu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Mounira94.github.io/menuReactRouter",
+  "homepage": "https://mounira94.github.io/reactNav/",
   "dependencies": {
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
